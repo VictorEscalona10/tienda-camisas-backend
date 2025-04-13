@@ -26,7 +26,7 @@ npm install
    - Crea un archivo `.env` en la raíz del proyecto
    - Copia el contenido del archivo `.env.example` (si existe) o configura las siguientes variables:
 ```env
-DATABASE_URL="postgresql://usuario:contraseña@localhost:5432/tienda_camisas"
+DATABASE_URL="mysql://usuario:contraseña@localhost:3306/nombre_base_datos"
 PORT=3000
 JWT_SECRET="tu_secreto_jwt"
 ```
@@ -53,7 +53,6 @@ src/
 ├── config/         # Configuraciones de la aplicación
 ├── controllers/    # Controladores de la lógica de negocio
 ├── routes/         # Rutas de la API
-├── lib/           # Utilidades y helpers
 ├── generated/     # Archivos generados por Prisma
 └── index.js       # Punto de entrada de la aplicación
 ```
@@ -63,6 +62,6 @@ src/
 - Node.js
 - Express
 - Prisma
-- PostgreSQL
+- PostgreSQL o MySQL
 - JWT
 - dotenv 
