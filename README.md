@@ -52,6 +52,7 @@ El servidor se ejecutará en `http://localhost:3000`
 src/
 ├── config/         # Configuraciones de la aplicación
 ├── controllers/    # Controladores de la lógica de negocio
+├── docs/           # Documentación de la API con Swagger
 ├── routes/         # Rutas de la API
 ├── generated/     # Archivos generados por Prisma
 └── index.js       # Punto de entrada de la aplicación
