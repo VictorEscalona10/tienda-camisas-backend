@@ -21,6 +21,7 @@ const router = Router()
  *                 message:
  *                   type: string
  *                   example: Hola Mundo
+ *        
  */
 router.get('/', helloController)
 
